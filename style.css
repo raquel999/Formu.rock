@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+span{color: #9898aa;}
+h1{color: white;
+font-family: 'Staatliches';
+
+    font-size: 48px;
+    margin-bottom: 18px;
+  }
+  p{font-family: 'Poppins', sans-serif;
+    color: white; 
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;}
+
+header{background-color: #535971;
+display: flex;
+height: 436px;
+align-items: center;
+justify-content: center;
+color: #fff;}
+
+body{ background-color: #EFEFEF;
+  font-family: "Poppins", sans-serif;}
+
+header p {
+  font-size: 16px;
+  line-height: 26px;
+  color: white;}
+
+  main {width: 750px;
+    background-color: #fff;
+    margin: -100px auto 100px;
+    border-radius: 20px;}
+
+label {
+ padding-bottom: 8px;
+ color: #4e4958;
+ font-size: 14px;
+}
+
+
+legend {
+  font-size: 24px;
+  color: #535971;
+}
+
+
+.legend-group {
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+
+.hero {
+display: flex;
+flex-direction: column;
+width: 750px;
+          }
+          .hero p {
+            max-width: 352px;
+            font-size: 20px;
+            line-height: 30px;
+          }         
+ .container {padding: 64px;}     
+ hr {
+    margin: 6px 0 36px;
+    border: 1px solid #e6e6f0;
+  }
+  .input-group {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+  } 
+fieldset{border:none}
+
+form{background-color: 
+        #FAFAFC;}
+.input-wrapper {
+  width: 100%;
+display: flex;
+flex-direction: column}  
+.hero p {
+  max-width: 352px;
+  font-size: 20px;
+  line-height: 30px;
+}        
+legend {
+  font-size: 24px;
+  color: #535971;
+}                  
+.legend-group {
+  margin-bottom: 11px;
+  font-size: 20px;
+}        
+input {
+  border-radius: 8px;
+  width: 100%;
+  background-color: #fafafc;
+  height: 56px;
+  border: 1px solid #e6e6f0;
+  margin-bottom: 20px;
+}                       
+h1,legend,button {font-family: "Staatliches", cursive;}
+
+body::before{content:'' ;
+
+ width: 100%;
+ height: 368px;
+ position: absolute;
+            
+ top: 0;
+left: 0;
+z-index: -1;
+background-color:  #535971;}
+
+footer {
+background-color: #535971;
+width: 100%;
+border-radius: 0 0 20px 20px;
+padding: 50px 70px;
+              }
+ button {
+  padding: 14px;
+  background: #ff5374;
+  border-radius: 20px;
+  font-size: 20px;
+  width: 100%;
+  color: #fff;
+ border: none;
+              }
+
+
+
+
+.date {
+      width: 150%;
+      margin-right: 32px;
+    }
+    
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      display: none;
+    }
+    
+    input[type="time"]::-webkit-calendar-picker-indicator {
+      display: none;
+    }
+    
+    input {
+      padding-left: 10px;
+       font-family: "Poppins", sans-serif;
+      color: #4e4958;
+     }
+ 
+
+
+
+    
